@@ -1,0 +1,41 @@
+.product-card{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  img{
+    max-height: 230px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  h3{
+    text-align: left;
+    color: dodgerblue;
+    font-size: 500;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .salon{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    span{
+      background-color: rgb(238, 237, 237);
+      border-radius: 3px;
+    }
+  }
+  .priceCard{
+    display: flex;
+    justify-content: flex-start;
+    p{
+      font-weight: bold;
+      font-size: 20px;
+      color: black;
+    }
+  }
+}

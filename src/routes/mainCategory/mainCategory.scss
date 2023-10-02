@@ -1,0 +1,14 @@
+.main__category{
+    margin-left: 480px;
+    margin-top: 50px;
+    h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .mainCategoryCards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        margin-top: 10px;
+    }
+}

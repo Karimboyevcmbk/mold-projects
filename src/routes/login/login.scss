@@ -1,0 +1,97 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: #29B5F4;
+    .login__titles{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        width: 455px;
+        justify-content: space-between;
+        padding: 20px 0;
+        strong{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .zaza{
+            width: 100%;
+            height: 60px;
+            font-size: 25px;
+            border-radius: 10px;
+            padding: 0 10px;
+            margin-bottom: 50px;
+            background-color: rgb(159, 159, 215);
+        }
+        form{
+            button{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 25px;
+                background-color: green;
+                color: #fff;
+                height: 60px;
+                margin-top: 50px;
+                border-radius: 10px;
+                border: none;
+                transition: 0.5s;
+                gap: 10px;
+                &:hover{
+                    background-color: rgb(8, 189, 8);
+                }
+                &:active{
+                    transform: scale(0.9);
+                }
+                .loding-icon{
+                    animation: spin 0.5s linear infinite;
+                }
+                @keyframes spin {
+                    to{
+                        transform: rotate(360deg);
+                    }
+                }
+                &:disabled{
+                    opacity: 0.5;
+                }
+            }
+        }
+        .login__link{
+            margin: 0 auto;
+            font-size: 18px;
+            color: blue;
+        }
+    }
+    .login__img{
+        width: 600px;
+        height: 600px;
+
+    }
+}
+.farqi{
+    display: flex;
+    align-items: center;
+    border: 3px solid grey;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #eeeeee;
+    background-color: rgb(159, 159, 215);
+    input{
+        border: none;
+        outline: none;
+        background-color: #eeeeee;
+        margin: 0;
+        width: 90%;
+        border: none;
+        background: #eeeeee;
+        outline: none;
+        padding-left: 10px;
+        font-size: 25px;
+        background-color: rgb(159, 159, 215);
+    }
+}
